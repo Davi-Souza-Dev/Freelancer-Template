@@ -1,0 +1,11 @@
+/* CORES PRINCIPAIS E AJUSTES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --color1: #715C3F;
+  --color1-2: #EFE8D8;
+  --color2: #CA7169;
+  --color2-2:#F3D7D5;
+
+  --font:"Roboto", sans-serif;
+}

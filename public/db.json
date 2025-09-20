@@ -1,0 +1,308 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Bolos",
+      "produtos": [
+        {
+          "id": 101,
+          "nome": "Bolo de Chocolate",
+          "preco": 45.0,
+          "descricao": "Bolo fofinho de chocolate com cobertura cremosa.",
+          "imagem": "bolos/chocolate.jpg"
+        },
+        {
+          "id": 102,
+          "nome": "Bolo de Morango",
+          "preco": 50.0,
+          "descricao": "Bolo de baunilha com recheio de morango e chantilly.",
+          "imagem": "bolos/morango.jpg"
+        },
+        {
+          "id": 103,
+          "nome": "Bolo de Cenoura",
+          "preco": 40.0,
+          "descricao": "Tradicional bolo de cenoura com cobertura de chocolate.",
+          "imagem": "bolos/cenoura.jpg"
+        },
+        {
+          "id": 104,
+          "nome": "Bolo Red Velvet",
+          "preco": 65.0,
+          "descricao": "Clássico red velvet com creme de cream cheese.",
+          "imagem": "bolos/redvelvet.jpg"
+        },
+        {
+          "id": 105,
+          "nome": "Bolo de Coco",
+          "preco": 48.0,
+          "descricao": "Bolo molhadinho de coco com leite condensado.",
+          "imagem": "bolos/coco.jpg"
+        },
+        {
+          "id": 106,
+          "nome": "Bolo Prestígio",
+          "preco": 55.0,
+          "descricao": "Bolo de chocolate recheado com coco cremoso.",
+          "imagem": "bolos/prestigio.jpg"
+        },
+        {
+          "id": 107,
+          "nome": "Bolo Mousse de Maracujá",
+          "preco": 60.0,
+          "descricao": "Camadas leves de bolo com mousse de maracujá.",
+          "imagem": "bolos/maracuja.jpg"
+        },
+        {
+          "id": 108,
+          "nome": "Bolo Floresta Negra",
+          "preco": 70.0,
+          "descricao": "Bolo de chocolate, chantilly e cerejas.",
+          "imagem": "bolos/florestanegra.jpg"
+        },
+        {
+          "id": 109,
+          "nome": "Bolo de Limão",
+          "preco": 42.0,
+          "descricao": "Bolo refrescante com cobertura de limão.",
+          "imagem": "bolos/limao.jpg"
+        },
+        {
+          "id": 110,
+          "nome": "Bolo de Nozes",
+          "preco": 68.0,
+          "descricao": "Bolo especial de nozes com doce de leite.",
+          "imagem": "bolos/nozes.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Brigadeiros",
+      "produtos": [
+        {
+          "id": 201,
+          "nome": "Brigadeiro Tradicional",
+          "preco": 3.5,
+          "descricao": "Clássico brigadeiro de chocolate com granulado.",
+          "imagem": "brigadeiros/tradicional.jpg"
+        },
+        {
+          "id": 202,
+          "nome": "Brigadeiro de Leite Ninho",
+          "preco": 4.0,
+          "descricao": "Brigadeiro branco com leite em pó.",
+          "imagem": "brigadeiros/ninho.jpg"
+        },
+        {
+          "id": 203,
+          "nome": "Brigadeiro de Pistache",
+          "preco": 5.0,
+          "descricao": "Brigadeiro gourmet de pistache.",
+          "imagem": "brigadeiros/pistache.jpg"
+        },
+        {
+          "id": 204,
+          "nome": "Brigadeiro de Morango",
+          "preco": 4.5,
+          "descricao": "Brigadeiro sabor morango com granulado rosa.",
+          "imagem": "brigadeiros/morango.jpg"
+        },
+        {
+          "id": 205,
+          "nome": "Brigadeiro Meio Amargo",
+          "preco": 4.5,
+          "descricao": "Brigadeiro de chocolate meio amargo.",
+          "imagem": "brigadeiros/meioamargo.jpg"
+        },
+        {
+          "id": 206,
+          "nome": "Brigadeiro de Café",
+          "preco": 4.8,
+          "descricao": "Brigadeiro gourmet com toque de café.",
+          "imagem": "brigadeiros/cafe.jpg"
+        },
+        {
+          "id": 207,
+          "nome": "Brigadeiro de Amendoim",
+          "preco": 4.2,
+          "descricao": "Brigadeiro de chocolate com crocante de amendoim.",
+          "imagem": "brigadeiros/amendoim.jpg"
+        },
+        {
+          "id": 208,
+          "nome": "Brigadeiro de Maracujá",
+          "preco": 4.5,
+          "descricao": "Brigadeiro de maracujá suave e doce.",
+          "imagem": "brigadeiros/maracuja.jpg"
+        },
+        {
+          "id": 209,
+          "nome": "Brigadeiro de Oreo",
+          "preco": 5.0,
+          "descricao": "Brigadeiro com pedaços de Oreo.",
+          "imagem": "brigadeiros/oreo.jpg"
+        },
+        {
+          "id": 210,
+          "nome": "Brigadeiro Gourmet Sortido",
+          "preco": 45.0,
+          "descricao": "Caixa com 12 unidades sortidas.",
+          "imagem": "brigadeiros/sortido.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Milkshakes",
+      "produtos": [
+        {
+          "id": 301,
+          "nome": "Milkshake de Chocolate",
+          "preco": 18.0,
+          "descricao": "Clássico milkshake cremoso de chocolate.",
+          "imagem": "milkshakes/chocolate.jpg"
+        },
+        {
+          "id": 302,
+          "nome": "Milkshake de Morango",
+          "preco": 18.0,
+          "descricao": "Milkshake de morango com pedaços de fruta.",
+          "imagem": "milkshakes/morango.jpg"
+        },
+        {
+          "id": 303,
+          "nome": "Milkshake de Baunilha",
+          "preco": 17.0,
+          "descricao": "Tradicional milkshake suave de baunilha.",
+          "imagem": "milkshakes/baunilha.jpg"
+        },
+        {
+          "id": 304,
+          "nome": "Milkshake de Nutella",
+          "preco": 22.0,
+          "descricao": "Milkshake especial de Nutella.",
+          "imagem": "milkshakes/nutella.jpg"
+        },
+        {
+          "id": 305,
+          "nome": "Milkshake de Oreo",
+          "preco": 20.0,
+          "descricao": "Milkshake com pedaços de Oreo crocante.",
+          "imagem": "milkshakes/oreo.jpg"
+        },
+        {
+          "id": 306,
+          "nome": "Milkshake de Doce de Leite",
+          "preco": 21.0,
+          "descricao": "Milkshake doce de leite com chantilly.",
+          "imagem": "milkshakes/docedeleite.jpg"
+        },
+        {
+          "id": 307,
+          "nome": "Milkshake de Maracujá",
+          "preco": 19.0,
+          "descricao": "Milkshake refrescante de maracujá.",
+          "imagem": "milkshakes/maracuja.jpg"
+        },
+        {
+          "id": 308,
+          "nome": "Milkshake de Coco",
+          "preco": 20.0,
+          "descricao": "Milkshake suave de coco.",
+          "imagem": "milkshakes/coco.jpg"
+        },
+        {
+          "id": 309,
+          "nome": "Milkshake de Brownie",
+          "preco": 23.0,
+          "descricao": "Milkshake com pedaços de brownie.",
+          "imagem": "milkshakes/brownie.jpg"
+        },
+        {
+          "id": 310,
+          "nome": "Milkshake Gourmet Sortido",
+          "preco": 110.0,
+          "descricao": "Caixa com 6 sabores diferentes (1L cada).",
+          "imagem": "milkshakes/sortido.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Outros",
+      "produtos": [
+        {
+          "id": 401,
+          "nome": "Cookie de Chocolate",
+          "preco": 6.0,
+          "descricao": "Cookie crocante com gotas de chocolate.",
+          "imagem": "outros/cookie.jpg"
+        },
+        {
+          "id": 402,
+          "nome": "Pão de Mel",
+          "preco": 7.0,
+          "descricao": "Pão de mel recheado com doce de leite.",
+          "imagem": "outros/paodemel.jpg"
+        },
+        {
+          "id": 403,
+          "nome": "Cupcake de Baunilha",
+          "preco": 8.0,
+          "descricao": "Cupcake fofo com cobertura de baunilha.",
+          "imagem": "outros/cupcake.jpg"
+        },
+        {
+          "id": 404,
+          "nome": "Brownie Tradicional",
+          "preco": 9.0,
+          "descricao": "Brownie de chocolate macio e intenso.",
+          "imagem": "outros/brownie.jpg"
+        },
+        {
+          "id": 405,
+          "nome": "Cheesecake de Frutas Vermelhas",
+          "preco": 15.0,
+          "descricao": "Cheesecake cremoso com calda de frutas vermelhas.",
+          "imagem": "outros/cheesecake.jpg"
+        },
+        {
+          "id": 406,
+          "nome": "Torta de Limão",
+          "preco": 12.0,
+          "descricao": "Torta gelada de limão com merengue.",
+          "imagem": "outros/tortalimao.jpg"
+        },
+        {
+          "id": 407,
+          "nome": "Trufa de Chocolate",
+          "preco": 5.0,
+          "descricao": "Trufa artesanal de chocolate belga.",
+          "imagem": "outros/trufa.jpg"
+        },
+        {
+          "id": 408,
+          "nome": "Palha Italiana",
+          "preco": 7.0,
+          "descricao": "Doce de brigadeiro com biscoito.",
+          "imagem": "outros/palhaitaliana.jpg"
+        },
+        {
+          "id": 409,
+          "nome": "Donuts",
+          "preco": 10.0,
+          "descricao": "Rosquinha recheada com cobertura colorida.",
+          "imagem": "outros/donuts.jpg"
+        },
+        {
+          "id": 410,
+          "nome": "Caixa Mista de Doces",
+          "preco": 80.0,
+          "descricao": "Caixa com 20 unidades de doces variados.",
+          "imagem": "outros/caixamista.jpg"
+        }
+      ]
+    }
+  ]
+}
