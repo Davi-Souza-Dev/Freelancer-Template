@@ -27,7 +27,6 @@ const useCarrinhoStore = defineStore('carrinho', {
         }
         this.produtos.push(produto)
       }
-      //   console.log(produto)
     },
     removerProduto(id: number) {
       this.produtos = this.produtos.filter((p) => p.id !== id)

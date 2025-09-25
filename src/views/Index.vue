@@ -4,10 +4,9 @@ import CardCat from '@/components/ComponentCardCat.vue'
 import Socials from '@/components/ComponentSocial.vue'
 import Popup from '@/components/ComponentPopup.vue'
 import Button from '@/components/ComponentButton.vue'
-import { onBeforeMount, onMounted, ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import axios, { toFormData } from 'axios'
 import useCarrinhoStore from '@/stores/carrinhoStore'
-import router from '@/router'
 
 // PRODUTOS SELECIONADOS
 const carrinho = useCarrinhoStore()
@@ -17,6 +16,7 @@ const next = ref(false)
 interface Categoria {
   id: number
   nome: string
+  imagem:string
   produtos: Produto[]
 }
 
@@ -66,6 +66,7 @@ const togglePopup = (idCat?: Number) => {
         :key="categoria.id"
         :id="categoria.id"
         :titulo="categoria.nome"
+        :imagem="categoria.imagem"
         :fundo="Math.floor(categoria.id / 2) % 2 === 0 ? 'b1' : 'b2'"
       />
     </div>

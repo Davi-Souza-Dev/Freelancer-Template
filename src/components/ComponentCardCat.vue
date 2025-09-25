@@ -3,9 +3,9 @@ const emit = defineEmits(['click'])
 
 interface Props {
   id: Number
-  // imagem: String, //Depois
-  titulo: String,
-  fundo: String,
+  imagem: string
+  titulo: String
+  fundo: String
 }
 
 const props = defineProps<Props>()
@@ -18,7 +18,7 @@ const clickCat = () => {
 
 <template>
   <div class="containerCat" @click="clickCat" :class="props.fundo">
-    <img src="" alt="" />
+    <img :src="props.imagem" alt="" />
     <span>{{ props.titulo }}</span>
   </div>
 </template>

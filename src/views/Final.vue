@@ -32,8 +32,8 @@ onMounted(() => {
   formData.value.complemento = infoUser.getInfo.endereco.complemento
   formData.value.bairro = infoUser.getInfo.endereco.bairro
   formData.value.cidade = infoUser.getInfo.endereco.cidade
-  formatCep();
-  input();
+  formatCep()
+  input()
 })
 
 // FORMATAR O CEP
@@ -119,7 +119,7 @@ ${listaProdutos}
   *Cep:* ${info.endereco.cep}
   *Rua:* ${info.endereco.rua}
   *Complemento:* ${info.endereco.complemento != '' ? info.endereco.complemento : 'nenhum'}
-  *Bairro:* ${info.endereco.complemento}
+  *Bairro:* ${info.endereco.bairro}
   *Cidade:* ${info.endereco.cidade}
   `
 

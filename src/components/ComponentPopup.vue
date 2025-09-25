@@ -1,10 +1,8 @@
 <script lang="ts" setup>
 import Product from './ComponentCardProduct.vue'
 import Button from './ComponentButton.vue'
-import router from '@/router'
 import useCarrinhoStore from '@/stores/carrinhoStore'
 import { ref } from 'vue'
-
 
 const next = ref(false)
 
@@ -36,19 +34,20 @@ const produtosSelected = (idProduto: number): boolean => {
 
   return carrinho.getProdutos.some((produto) => produto.id === idProduto)
 }
+
 // SELECIONAR E GUARDAR O PRODUTO
 const selectProduto = (props: Produto) => {
   const produto = carrinho.getProdutos.find((p) => props.id === p.id)
   if (!produto) {
-    console.log("Adicionado");
-
     carrinho.setProduto(props.id, props.nome, props.preco, props.imagem)
     return
   } else {
     carrinho.removerProduto(props.id)
   }
 }
+
 </script>
+
 <template>
   <div class="background">
     <div class="containerPopup">
@@ -82,6 +81,7 @@ const selectProduto = (props: Produto) => {
           :preco="produto.preco"
           :id="produto.id"
           :fundo="Math.floor(produto.id / 2) % 2 === 0 ? 'b1' : 'b2'"
+          :image="produto.imagem"
           :checked="produtosSelected(produto.id)"
         />
       </div>

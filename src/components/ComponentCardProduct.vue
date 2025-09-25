@@ -5,6 +5,7 @@ interface Props {
   preco: number
   fundo: string
   checked: boolean
+  image:string
 }
 
 const props = defineProps<Props>()
@@ -25,7 +26,7 @@ const select = () => {
       @change="select"
     />
     <div class="containerProduct" :class="props.fundo">
-      <img src="" />
+      <img :src="props.image" />
       <span class="title">{{ props.nome }}</span>
       <span class="price">{{ `R$: ${props.preco}` }}</span>
     </div>
